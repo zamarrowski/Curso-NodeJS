@@ -10,4 +10,4 @@ El entorno de desarrollo que yo recomiendo y recordaremos algunas funcionalidade
 
 # Que veremos en la siguiente clase
 
-En la siguente clase explicaremos como funciona la asincronía en NodeJS, como controlarla mediante callbacks y promesas y nuevas funcionalidades que nos haran el código mucho mas legible.
+En la siguente clase explicaremos como funciona la asincronía en NodeJS, como controlarla mediante callbacks y promesas y nuevas funcionalidades que nos haran el código mucho mas legible y también veremos el protocolo HTTP, funcionamiento interno de Node.js y npm.
