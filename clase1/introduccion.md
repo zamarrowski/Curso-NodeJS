@@ -7,6 +7,7 @@ El entorno de desarrollo que yo recomiendo y recordaremos algunas funcionalidade
 2. [Github](./github.md)
 3. [Entorno de desarrollo](./entorno.md)
 4. [Repaso a ES6](./es6.md)
+5. [¿Qué es NodeJS?](./nodejs.md)
 
 # Que veremos en la siguiente clase
 
