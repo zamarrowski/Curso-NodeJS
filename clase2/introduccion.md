@@ -13,3 +13,4 @@ En esta clase vamos a ver como instalar NodeJS, como crear un servidor HTTP en 6
 8. [Variables de entorno](./variablesdeentorno.md)
 8. [Modularizacion](./modularizacion.md)
 9. [NPM](./npm.md)
+10. [Ejercicios](./ejercicios.md)
