@@ -21,7 +21,7 @@ Uno de los puntos más criticados y menos comprendidos es las relaciones en Mong
 1. Relaciones One-to-One: 
 
 Imaginaemos que tenemos *una colección* de personas donde cada persona tiene una dirección:
-```json
+```javascript
 {
    _id: "joe",
    name: "Joe Bookreader"
@@ -38,7 +38,7 @@ Imaginaemos que tenemos *una colección* de personas donde cada persona tiene un
 
  En un modelo normal sacaríamos la dirección a otra tabla. En MongoDB para poder evitar esa consulta se embebe el documento: 
 
- ```json
+ ```javascript
  {
    _id: "joe",
    name: "Joe Bookreader",
@@ -56,7 +56,7 @@ Imaginaemos que tenemos *una colección* de personas donde cada persona tiene un
 2. Relaciones One-to-Many:
 
 Ahora imaginemos que una persona puede tener varias direcciones. En un modelo normalizado tendríamos las direcciones en otra tabla referenciando al usuario. Alo así:
-```json
+```javascript
 {
    _id: "joe",
    name: "Joe Bookreader"
@@ -81,7 +81,7 @@ Ahora imaginemos que una persona puede tener varias direcciones. En un modelo no
 
 Si nuestra aplicacion necesita las direcciones de un usuario de manera frecuente tendríamos que hacer varias queries para obtener sus direcciones y los datos del usuario. Si embebemos las direcciones del usuario podríamos tener esta información en una sola query:
 
-```json
+```javascript
 {
    _id: "joe",
    name: "Joe Bookreader",
@@ -105,7 +105,7 @@ Si nuestra aplicacion necesita las direcciones de un usuario de manera frecuente
 3. One-to-Many with references
 
 Ahora imaginemos otro caso. Tenemos una entidad libros y otra editoriales. Una editorial puede tener muchos libros publicados y un libro tener solo una editorial. Si embebemos la editorial dentro del documento libro tendremos que lidiar con la repeticion de esta información en todos los libros de esa editorial. Si algún dia cambia de nombre tendríamos que actualizar todos los libros:
-```json
+```javascript
 {
    title: "MongoDB: The Definitive Guide",
    author: [ "Kristina Chodorow", "Mike Dirolf" ],
@@ -137,7 +137,7 @@ Lo mejor en este caso sería separar la colección editorial de la colección li
 
 Para saber en que colección tenemos que poner esa referencia tenemos que pensar en si ese número de referencias va a crecer.
 En caso de poner la referencia a los libros en la colección de editorailes tendríamos algo así:
-```json
+```javascript
 {
    name: "O'Reilly Media",
    founded: 1980,
@@ -165,7 +165,7 @@ En caso de poner la referencia a los libros en la colección de editorailes tend
 ```
 
 No sabemos cuanto puede crecer nuestro documento así que lo mejor sería referencia en cada libro a la editorial:
-```json
+```javascript
 {
    _id: "oreilly",
    name: "O'Reilly Media",

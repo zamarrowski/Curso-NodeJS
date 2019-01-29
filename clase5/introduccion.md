@@ -4,5 +4,4 @@ En esta clase veremos como usar NodeJS con una base de datos no relacional. Vere
 
 1. [MongoDB](./mongo.md)
 2. [Mongoose](./mongoose.md)
-3. [Mongoose](./mongoose.md)
 4. [Ejercicios](./ejercicios.md)
