@@ -24,3 +24,19 @@
     * Crear un endpoint que borre un restaurante
     * Crear un endpoint que te devuelva el detalle de un restaurante
     * Crear un endpoint que busque por nombre
+
+3. Express + Mongoose + Jade + Docker
+    * Crear modelos de usuario y bares
+    * CRUD de usuarios:
+        * Requerimientos:
+            * Password cifrada
+            * Un usuario le gustan varios bares
+    * CRUD de bares
+    * Un usuario puede dar like a un bar
+    * Un usuario puede dar dislike a un bar
+    * Ver los bares que le gustan a un usuario
+    * Crear imagen del servidor en Docker
+    * Mostrar los usuarios a los que le gustan el mismo bar que a mi
+
+
+
