@@ -13,6 +13,11 @@
     * Comprobar que los registros se han añadido correctamente
     * Realizar una consulta en mongo que saque todos los registros
     * Sacar los restaurante de la calle "Morris Park Ave"
+    * Write a MongoDB query to display all the documents in the collection restaurants. Go to the editor
+    * Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine for all the documents in the collection restaurant.
+    * Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine, but exclude the field _id for all the documents in the collection restaurant. Go to the editor
+    * Write a MongoDB query to display the fields restaurant_id, name, borough and zip code, but exclude the field _id for all the documents in the collection restaurant. Go to the editor
+    * Write a MongoDB query to display all the restaurant which is in the borough Bronx. Go to the editor
 
 2. Con la base de datos anterior:
     * Crear un endpoint que te devuelva todos los restaurante pero solo el nombre
