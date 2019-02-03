@@ -11,3 +11,4 @@ Curso de NodeJS
 5. [Clase 4](./clase4/introduccion.md)
 6. [Clase 5](./clase5/introduccion.md)
 7. [Clase 6](./clase6/introduccion.md)
+8. [Clase 7](./clase7/introduccion.md)
