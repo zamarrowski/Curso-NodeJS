@@ -21,7 +21,7 @@ Luego, con las **Pruebas de Integración**, se podrá asegurar el correcto funci
 > Desarrollo guiado por pruebas de software, o Test-driven development (TDD) es una práctica de ingeniería de software que involucra otras dos prácticas: Escribir las pruebas primero (Test First Development) y Refactorización (Refactoring).
 En primer lugar, se escribe una prueba y se verifica que las pruebas fallan. A continuación, se implementa el código que hace que la prueba pase satisfactoriamente y seguidamente se refactoriza el código escrito.
 
-![tdd](../assets/tdd.png)
+![tdd](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/tdd.png)
 
 - Primero los test
 - Depués el código (Refactorización <-> Testing)
@@ -34,11 +34,11 @@ En primer lugar, se escribe una prueba y se verifica que las pruebas fallan. A c
 1. Refactoriza
 1. Repite
 
-![tdd](../assets/tdd.gif)
+![tdd](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/tdd.gif)
 
 ### Pair programming
 
-![pair-programming](../assets/pair-programming.jpg)
+![pair-programming](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/pair-programming.jpg)
 
 > La técnica del pair programming consiste en codificar en pareja sobre el mismo código.
 
@@ -49,29 +49,29 @@ En primer lugar, se escribe una prueba y se verifica que las pruebas fallan. A c
 **Técnicas**:
 - `Driver-Navigator`: Es la técnica clásica, el `driver` va escribiendo mientras el `navigator` dirige y le va diciendo qué es lo que tiene que hacer.
 
-  ![driver-navigator](../assets/driver-navigator.jpeg)
+  ![driver-navigator](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/driver-navigator.jpeg)
 
 - `Strong Style`: Es muy parecida a la anterior, pero ada vez que alguien quiera opinar o dirigir tiene que pasarle el teclado a la otra persona.
 
-  ![driver-navigator](../assets/strong-style.jpeg)
+  ![driver-navigator](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/strong-style.jpeg)
 
 - `Ping Pong`: Ahora hay que aplicar TDD en estado puro. Uno de los dos implementa un test y le pasa el teclado a la otra persona para que lo resuelva. Una vez resuelte escribe un nuevo test y vuelve a pasar el teclado. Así sucesivamente...
 
-  ![ping-pong](../assets/ping-pong.jpeg)
+  ![ping-pong](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/blob/master/assets/ping-pong.jpeg)
 
 ### Algunos datos recientes
 
-![frameworks](../assets/tdd-frameworks.png)
+![frameworks](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/tdd-frameworks.png)
 
 ### Combo Breaker
 
-![combo](../assets/tdd-combo.png)
+![combo](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/tdd-combo.png)
 
 **Mocha + Chai + Node.js** ([unit testing + TDD in Node.js](https://www.codementor.io/davidtang/unit-testing-and-tdd-in-node-js-part-1-8t714s877))
 
 #### Mocha
 
-![mocha](../assets/mocha.svg)
+![mocha](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/mocha.svg?sanitize=true)
 
 Mocha es un framework de testing para JavaScript que funciona sobre Node.js y/o en el navegador. Los tests de Mocha se ejecutan en serie, permitiendo obtener un reporte completo y sencillo.
 
@@ -164,7 +164,7 @@ $ mocha --compilers js:babel-core/register -r babel-polyfill tests/*.js
 
 #### Chai
 
-![chai](../assets/chai.png)
+![chai](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/chai.png)
 
 Chai es una librería de aserciones, similar al [assert de Node.js](https://nodejs.org/api/assert.html).
 Simplifica el test proporcionando muchas aserciones con las que probar el código.
@@ -205,7 +205,7 @@ it('returns a String', () => {
 
 ### Sinon.js
 
-![sinon](../assets/sinon.jpg)
+![sinon](https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8/raw/master/assets/sinon.jpg)
 
 > Sinon.js es una librería totalmente agnóstica de cualquier framework de testign que permite crear **spies**, **stubs** y **mocks**.
 
