@@ -1,6 +1,6 @@
 # Slack SDK
 
-![slacklogo](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjHpb6rr6XgAhWSlhQKHVDmDlsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F129267451779877153%2F&psig=AOvVaw1kBTfmK9dHBq0GS6BGykgM&ust=1549482786326874)
+![slacklogo](https://i.pinimg.com/originals/2b/26/43/2b26437d72e949db88e62d251c736c45.gif)
 
 Existe ya un SDK para NodeJS que nos permite interactuar con Slack: [Node Slack SDK](https://github.com/slackapi/node-slack-sdk)
 
